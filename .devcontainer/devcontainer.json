@@ -1,13 +1,12 @@
 {
-    "name": "Rust Tutorial",
-    "image": "mcr.microsoft.com/vscode/devcontainers/rust",
-    "customizations": {
-      "vscode": {
-        "settings": {},
-        "extensions": [
-          "rust-lang.rust-analyzer"
-        ]
-      }
-    },
-    "postCreateCommand": "cargo init --bin --name hello_423 && touch main.rs"
+  "name": "Rust Tutorial",
+  "image": "mcr.microsoft.com/vscode/devcontainers/rust",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "rust-lang.rust-analyzer"
+      ]
+    }
   }
+}
